@@ -4,75 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./styles.css">
-    <script defer src="script.js"></script>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="js/script.js"></script>
 </head>
 
 <body>
+
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <img src="images/girl-smiling-background_994245-8197.avif" alt="My Avatar" class="avatar">
+        <h1>Hi, I'm Azhar👋</h1>
+        < <p class="bio">🚀I am a 2nd-year student at the Faculty of Information Technology. I am passionate about programming and web development, actively learning languages like Python and JavaScript. I also participate in student projects and engage in self-education,
+            aiming to develop my skills and apply them in practice. In my free time, I enjoy solving cybersecurity challenges and exploring new trends in the IT field.</p>
     </header>
 
-    <section id="home" class="section">
-        <div class="container">
-            <h1>Welcome to My Portfolio</h1>
-            <p>I'm a passionate developer who creates amazing web experiences.</p>
-            <a href="#projects" class="btn">View Projects</a>
+    <section id="skills">
+        <h2>Skills 💻</h2>
+        <ul>
+            <li>⛷️SKI</li>
+            <li>🏇Horseback riding</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Let's Connect 🤝</h2>
+        <div class="social-links">
+            <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
         </div>
     </section>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et.</p>
-        </div>
-    </section>
-
-    <section id="projects" class="section">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="grid">
-                <div class="card" onclick="openModal('project1')">
-                    <h3>Project 1</h3>
-                    <p>Short description of the project...</p>
-                </div>
-                <div class="card" onclick="openModal('project2')">
-                    <h3>Project 2</h3>
-                    <p>Short description of the project...</p>
-                </div>
-                <!-- Add more project cards here -->
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact</h2>
-            <form id="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Modal for projects -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn" onclick="closeModal()">&times;</span>
-            <h2 id="modal-title"></h2>
-            <p id="modal-description"></p>
-        </div>
-    </div>
 </body>
+
+</html>
 
 </html>
